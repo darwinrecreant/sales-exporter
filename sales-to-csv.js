@@ -17,7 +17,7 @@
       row.push(d);
     return row.join(',');
   }).join("\n");
-  var encodedUri = encodeURI(csv);
+  var encodedUri = encodeURIComponent(csv);
   var link = document.createElement("a");
   link.setAttribute("href", encodedUri);
   link.setAttribute("download", `sales_${new Date().toISOString().split('T')[0]}.csv`);
