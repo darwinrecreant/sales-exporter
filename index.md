@@ -4,7 +4,7 @@
 
 This bookmarketlet will let you export your sales into csv format. It will export only the sales visible on the page, so you will have to scroll down to view more.
 
-**Warning:** You should never save bookmarklets, which are javascript snippets, from random strangers, those can be malicious. Only use this bookmarlet is you know me and trust me.
+**Warning:** You should never save bookmarklets, which are javascript snippets, from random strangers, those can be malicious. Only use this bookmarlet if you know me and trust me.
 
 ## Instructions
 
