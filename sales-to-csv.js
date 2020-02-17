@@ -3,7 +3,7 @@
   const rows = $$('table tbody tr').map((elem) => {
     return [].slice.call(elem.querySelectorAll('li')).map((el) => el.textContent);
   });
-  headers[4] = "Day"
+  headers[4] = "Day";
   const csv = "data:text/csv;charset=utf-8," + [headers, ...rows].map((row, i) => {
     const d = (row[2].split(" ")[0].replace(/\//g, "-"));
     row = row.map((cell) => {
