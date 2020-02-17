@@ -5,7 +5,7 @@
   });
   const csv = "data:text/csv;charset=utf-8," + [[...headers], ...rows].map((row) => {
     return row.map((cell) => {
-      cell = cell.replace(/"/g, '""');
+      cell = cell.replace(/"/g, '""').replace(/^(-|\+|@|=|S\$)/g, "");
       if (cell.search(/[ ",\n]/) > -1) {
         return `"${cell}"`;
       }
