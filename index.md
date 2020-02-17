@@ -1,8 +1,10 @@
 # Sansar Sales Exporter
 
+[Source code](https://github.com/darwinrecreant/sales-exporter)
+
 This bookmarketlet will let you export your sales into csv format. It will export only the sales visible on the page, so you will have to scroll down to view more.
 
-**Warning** You should never save bookmarklets, which are javascript snippets, from random strangers, those can be malicious. Only use this bookmarlet is you know me and trust me.
+**Warning:** You should never save bookmarklets, which are javascript snippets, from random strangers, those can be malicious. Only use this bookmarlet is you know me and trust me.
 
 ## Instructions
 
@@ -12,4 +14,4 @@ This bookmarketlet will let you export your sales into csv format. It will expor
 
 ## Optional
 
-If you don't trust the link above then you can copy the source code in the js file in this repository, save a bookmark on the sales page, edit the bookmark, write `javascript:` in the url bar of the bookmark, and paste the code after that text in the same url bar.
+If you don't trust the link above then you can copy the source code in the js file in the repository provided at the top, save a bookmark on the sales page, edit the bookmark, write `javascript:` in the url bar of the bookmark, and paste the code after that text in the same url bar.
