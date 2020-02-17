@@ -21,5 +21,6 @@
   var link = document.createElement("a");
   link.setAttribute("href", encodedUri);
   link.setAttribute("download", `sales_${new Date().toISOString().split('T')[0]}.csv`);
+  document.body.appendChild(link);
   link.click();
 })((s) => document.querySelector(s), (s) => [].slice.call(document.querySelectorAll(s)));
