@@ -1,9 +1,9 @@
 (($, $$) => {
   const headers = $$('table thead th').map((elem) => elem.textContent);
   const rows = $$('table tbody tr').map((elem) => {
-    return [].slice.call(elem.querySelectorAll('li')).map((el) => el.textContent);
+    return [].slice.call(elem.querySelectorAll('li')).map((el) => el.textContent).concat([elem.lastElementChild.textContent])
   });
-  headers[4] = "Day";
+  headers.push("Day");
   const csv = [headers, ...rows].map((row, i) => {
     const d = (row[2].split(" ")[0].replace(/\//g, "-"));
     row = row.map((cell) => {
